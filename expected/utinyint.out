@@ -1,0 +1,16 @@
+SET client_min_messages = warning;
+\set ECHO none
+RESET client_min_messages;
+
+SELECT 0::tinyint;
+ tinyint 
+---------
+ 0
+(1 row)
+
+
+SELECT 128::tinyint;
+ tinyint 
+---------
+ 128
+(1 row)

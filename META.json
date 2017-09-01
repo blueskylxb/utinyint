@@ -1,0 +1,35 @@
+{
+	"name": "utinyint",
+	"abstract": "1 byte integer data type",
+	"description": "This provides 1 byte integer with full set of operators, index access methods and definition of them.",
+	"version": "0.1.1",
+	"maintainer": "Hitoshi Harada <umi.tanuki@gmail.com>",
+	"license": "postgresql",
+	"provides": {
+		"utinyint": {
+			"abstract": "1 byte integer",
+			"version": "0.1.1",
+			"file": "utinyint.sql",
+			"docfile": "doc/utinyint.md"
+		}
+	},
+	"resources": {
+		"bugtracker": {
+			"web": "http://github.com/umitanuki/utinyint-postgresql/issues/"
+		},
+		"repository": {
+			"url": "git://github.com/umitanuki/utinyint-postgresql.git",
+			"web": "http://github.com/umitanuki/utinyint-postgresql",
+			"type": "git"
+		}
+	},
+	"meta-spec": {
+		"version": "1.0.0",
+		"url": "http://pgxn.org/meta/spec.txt"
+	},
+	"tags": [
+		"datatype",
+		"integer",
+		"utinyint"
+	]
+}
